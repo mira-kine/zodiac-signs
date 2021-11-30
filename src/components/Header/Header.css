@@ -1,3 +1,14 @@
+body {
+  --color1: #320e3b;
+  --color3: #4c2a85;
+  --color2: #6b7fd7;
+  --color4: #bcedf6;
+  --color5: #ddfbd2;
+  background-color: var(--color1);
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+}
+
 header {
   color: var(--color5);
   height: 40px;

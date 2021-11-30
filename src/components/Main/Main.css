@@ -3,7 +3,29 @@ main {
   flex-wrap: wrap;
   margin-bottom: 40px;
   background-size: cover;
-  height: 640px;
+  height: calc(100vh - 80px);
   align-content: flex-start;
   position: relative;
+}
+
+header {
+  color: var(--color1);
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  background-color: var(--color4);
+  display: flex;
+  align-items: center;
+  font-family: 'Space and Astronomy';
+}
+
+body {
+  --color1: #320e3b;
+  --color3: #4c2a85;
+  --color2: #6b7fd7;
+  --color4: #bcedf6;
+  --color5: #ddfbd2;
+  background-color: var(--color1);
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
 }

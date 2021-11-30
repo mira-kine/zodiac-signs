@@ -1,0 +1,27 @@
+body {
+  --color1: #320e3b;
+  --color3: #4c2a85;
+  --color2: #6b7fd7;
+  --color4: #bcedf6;
+  --color5: #ddfbd2;
+  --header-height: 40px;
+  background-color: var(--color1);
+}
+
+.zodiac-card .name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Space and Astronomy';
+}
+
+.zodiac-card {
+  width: 200px;
+  background-color: var(--color2);
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: var(--color4);
+}
